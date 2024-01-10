@@ -11,14 +11,62 @@
         outline: 0;
         font-size: 100%;
         vertical-align: baseline;
-        background: transparent
+        background: transparent;
+        font-family: arial, serif;
     }
 
+.menu ul li a {
+    color: #000000;
+    background: #ffffff;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
 
-#header {
-    width: 100%;
-    background-color: pink;
+.sidebar ul li {
+    display: block;
+    list-style: none;
+}
+
+.sidebar ul li{
+    background: transparent;
+    padding: 2px 2px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1px;
+    width: 50%;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar ul li:hover {
+    background-color: black;
+    transition-duration: 0.8s;
+}
+
+header, .content {
+    max-width: 940px;
+    margin: auto;
+}
+
+header {
+    max-width: 940px;
+    background-color: #c4bbaf;
+    min-width: 600px;
     padding: 1em;
+    margin: auto;
 }
 
 #logo {
@@ -30,11 +78,11 @@
 }
 
 #content {
-    margin: 0.2em;
-    background-color: purple;
-    padding: 0.3em;
+    background-color: #a5978b;
+    padding: 1em;
     min-height: 100%;
-    width: 100%;
+    max-width: 940px;
+    margin: auto;
 }
 
 .menuitem {
@@ -44,13 +92,19 @@
 .fliesstext {
     width: 75%;
     float: left;
-    background-color: blueviolet;
+    background-color: #756961;
     padding: 0.2em;
 }
 
 .sidebar {
     float: right;
     width: 20%;
+    background-color: #c4bbaf;
+    margin-top: -16px;
+    margin-right: -16px;
+    padding-top: 16px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
 .clear {
